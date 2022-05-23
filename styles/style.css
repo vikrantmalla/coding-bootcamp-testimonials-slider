@@ -125,8 +125,8 @@ section .testimonials-content::before {
 
 @media (min-width: 62em) {
   section .testimonials-content::before {
-    -webkit-transform: translate(70%, -50%) scale(0.7);
-            transform: translate(70%, -50%) scale(0.7);
+    -webkit-transform: translate(70%, -50%) scale(0.8);
+            transform: translate(70%, -50%) scale(0.8);
   }
 }
 
@@ -180,12 +180,6 @@ section .testimonials-content .testimonial-info h2 {
 section .testimonials-content .testimonial-info p {
   font-size: 1rem;
   color: #babacf;
-}
-
-@media (min-width: 42em) {
-  section .testimonials-content .testimonial-info p {
-    font-size: 1.2rem;
-  }
 }
 
 @media (min-width: 62em) {
