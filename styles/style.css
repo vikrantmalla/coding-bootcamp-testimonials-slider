@@ -31,6 +31,34 @@ section .testimonials-img .img {
   margin: 0 auto;
   -webkit-box-shadow: 0 20px 50px rgba(32, 32, 70, 0.3);
           box-shadow: 0 20px 50px rgba(32, 32, 70, 0.3);
+  -webkit-animation: moveFromRight 0.75s ease-out;
+          animation: moveFromRight 0.75s ease-out;
+}
+
+@-webkit-keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 @media (min-width: 42em) {
@@ -114,6 +142,34 @@ section .testimonials-content {
   position: relative;
   margin: 4rem 1rem;
   text-align: center;
+  -webkit-animation: moveFromLeft 0.75s ease-out;
+          animation: moveFromLeft 0.75s ease-out;
+}
+
+@-webkit-keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 section .testimonials-content::before {
