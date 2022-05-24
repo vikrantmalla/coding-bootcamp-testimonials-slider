@@ -1,4 +1,5 @@
 section {
+    flex-direction: column;
     @media (min-width: 62em) {
         @include flex(row-reverse, center);
     }
@@ -56,7 +57,7 @@ section {
             padding: 0;
             width: 100px;
             height: 50px;
-            @media (min-width: 42em) {
+            @media (min-width: 62em) {
                 left: 30%;
             }
         }

@@ -2,6 +2,13 @@
 /*Color */
 /*Primary Color */
 /*mixin */
+section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media (min-width: 62em) {
   section {
     display: -webkit-box;
@@ -126,7 +133,7 @@ section .testimonials-img .switch {
   height: 50px;
 }
 
-@media (min-width: 42em) {
+@media (min-width: 62em) {
   section .testimonials-img .switch {
     left: 30%;
   }
